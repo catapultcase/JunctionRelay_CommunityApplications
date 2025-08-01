@@ -8,7 +8,7 @@
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://github.com/catapultcase/JunctionRelay</Project>
   <Overview/>
   <Category>HomeAutomation: Tools:</Category>
   <WebUI>http://[IP]:[PORT:7180]/</WebUI>
@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1754080614</DateInstalled>
+  <DateInstalled>1754081246</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
