@@ -10,14 +10,14 @@
   <Support/>
   <Project>https://github.com/catapultcase/JunctionRelay</Project>
   <Overview>Unified Data Orchestration &amp;amp; IoT Device Management</Overview>
-  <Category>HomeAutomation: Tools:</Category>
+  <Category>HomeAutomation: Tools: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:7180]/</WebUI>
   <TemplateURL/>
   <Icon>https://catapultcase.com/wp-content/uploads/2025/07/JunctionRelay-1.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1754081314</DateInstalled>
+  <DateInstalled>1754081674</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
