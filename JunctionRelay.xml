@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>JunctionRelay</Name>
+  <Repository>catapultcase/junctionrelay:latest</Repository>
+  <Registry/>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category>HomeAutomation: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:7180]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://catapultcase.com/wp-content/uploads/2025/07/JunctionRelay-1.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1754080614</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Access Local Devices" Target="/dev" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/dev</Config>
+  <Config Name="Host Mapping" Target="7180" Default="7180" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">7180</Config>
+  <Config Name="DB Location" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/junctionrelay</Config>
+  <TailscaleStateDir/>
+</Container>
