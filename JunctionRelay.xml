@@ -9,7 +9,7 @@
   <Privileged>true</Privileged>
   <Support/>
   <Project>https://github.com/catapultcase/JunctionRelay</Project>
-  <Overview>Unified Data Orchestration &amp;amp; IoT Device Management</Overview>
+  <Overview>Unified Data Orchestration &amp;amp; IoT Device Management. Create Junctions to poll various data sources and forward the data to your local devices in a number of different formats/approaches.</Overview>
   <Category>HomeAutomation: Tools: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:7180]/</WebUI>
   <TemplateURL/>
@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1754081674</DateInstalled>
+  <DateInstalled>1754082113</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
