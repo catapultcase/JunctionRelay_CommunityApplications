@@ -2,24 +2,24 @@
 <Container version="2">
   <Name>JunctionRelay</Name>
   <Repository>catapultcase/junctionrelay:latest</Repository>
-  <Registry/>
+  <Registry>https://registry.hub.docker.com/r/catapultcase/junctionrelay</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>true</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/192470-support-junctionrelay/#comment-1570847</Support>
   <Project>https://github.com/catapultcase/JunctionRelay</Project>
-  <Overview>Unified Data Orchestration &amp;amp; IoT Device Management. Create Junctions to poll various data sources and forward the data to your local devices in a number of different formats/approaches.</Overview>
-  <Category>HomeAutomation: Tools: Status:Beta</Category>
+  <Overview>Unified data orchestration and IoT device management. Create Junctions to collect data from sources like Unraid, Home Assistant, and APIs, then stream it to local display panels and devices.</Overview>
+  <Category>HomeAutomation: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:7180]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/catapultcase/Unraid_CommunityApplications/main/JunctionRelay.xml</TemplateURL>
   <Icon>https://catapultcase.com/wp-content/uploads/2025/07/JunctionRelay-1.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1754082113</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DateInstalled>1754429637</DateInstalled>
+  <DonateText>If you like my work please consider Donating.</DonateText>
+  <DonateLink>https://buymeacoffee.com/catapultcase</DonateLink>
   <Requires/>
   <Config Name="Access Local Devices" Target="/dev" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/dev</Config>
   <Config Name="Host Mapping" Target="7180" Default="7180" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">7180</Config>
