@@ -6,7 +6,7 @@
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
-  <Privileged>true</Privileged>
+  <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/192470-support-junctionrelay/#comment-1570847</Support>
   <Project>https://github.com/catapultcase/JunctionRelay</Project>
   <Overview>Unified data orchestration and IoT device management. Create Junctions to collect data from sources like Unraid, Home Assistant, and APIs, then stream it to local display panels and devices.&#xD;
@@ -27,4 +27,5 @@ NOTE: To send data to USB devices on the host machine, you may need to enable pr
   <Config Name="Host Mapping" Target="7180" Default="7180" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">7180</Config>
   <Config Name="DB Location" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/junctionrelay</Config>
   <TailscaleStateDir/>
+
 </Container>
