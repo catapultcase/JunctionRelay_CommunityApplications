@@ -9,7 +9,9 @@
   <Privileged>true</Privileged>
   <Support>https://forums.unraid.net/topic/192470-support-junctionrelay/#comment-1570847</Support>
   <Project>https://github.com/catapultcase/JunctionRelay</Project>
-  <Overview>Unified data orchestration and IoT device management. Create Junctions to collect data from sources like Unraid, Home Assistant, and APIs, then stream it to local display panels and devices.</Overview>
+  <Overview>Unified data orchestration and IoT device management. Create Junctions to collect data from sources like Unraid, Home Assistant, and APIs, then stream it to local display panels and devices.&#xD;
+&#xD;
+NOTE: To send data to USB devices on the host machine, you may need to enable privileged mode.</Overview>
   <Category>HomeAutomation: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:7180]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/catapultcase/Unraid_CommunityApplications/main/JunctionRelay.xml</TemplateURL>
@@ -17,7 +19,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1754429637</DateInstalled>
+  <DateInstalled>1754448767</DateInstalled>
   <DonateText>If you like my work please consider Donating.</DonateText>
   <DonateLink>https://buymeacoffee.com/catapultcase</DonateLink>
   <Requires/>
